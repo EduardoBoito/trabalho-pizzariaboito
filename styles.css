@@ -1,0 +1,86 @@
+/* Fundo com imagem */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("pizzaria-fundo.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Logo centralizada no topo */
+.logo-container {
+    position: absolute;
+    top: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.logo-container img {
+    width: 150px;
+    height: auto;
+}
+
+/* Formulário com fundo branco e borda vermelha */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 2px solid #e60000;
+    border-radius: 12px;
+    padding: 40px 30px;
+    width: 350px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 120px; /* distância da logo */
+}
+
+/* Título do formulário */
+form h3 {
+    text-align: center;
+    color: #e60000;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* Estilo dos campos */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    border-color: #ffc400;
+    outline: none;
+}
+
+/* Botão */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffc400;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #e6ac00;
+}

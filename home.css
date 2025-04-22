@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff8e7; /* amarelo bem claro */
+    color: #333;
+}
+
+header {
+    background-color: #e60000; /* vermelho */
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-left: 10px solid #ffc400; /* faixa amarela na lateral */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #e60000; /* vermelho */
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.promotions p {
+    color: #cc0000; /* vermelho escuro */
+    font-weight: bold;
+}
+
+footer {
+    background-color: #e60000;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
